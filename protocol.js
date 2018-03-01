@@ -66,4 +66,4 @@ Before moving on, let's quickly review what a merge conflict is. A merge conflic
 
 */
 
-var contributors = [];
+var contributors = ["Omar Ihmoda"];

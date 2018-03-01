@@ -76,4 +76,4 @@ Step 8) Submit a pull request to the main master project branch. It's now time t
 
 */
 
-var contributors = ["Omar Ihmoda", "Arin Halicki"];
+var contributors = ["Omar Ihmoda", "Arin Halicki", "Katia Shukh"];

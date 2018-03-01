@@ -71,8 +71,4 @@ Step 8) Submit a pull request to the main master project branch. It's now time t
 
 */
 
-
-//exercise. Let's practice! Let's each try to use the protocol outlined above to add our name to the array below. Once I have received pull requests from everyone, we will be ready to get started with Github collaboration.
-
-
-var contributors = [];
+var contributors = ["Omar Ihmoda"];

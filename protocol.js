@@ -29,7 +29,7 @@ Step 1) Ensure that your local master branch is up-to-date with the latest maste
 If you have already established a remote connection by following these step, just run git pull upstream master and then skip to step #2.
 ****STOP****
 
-If you type git remote -v you should see something like the below:
+If you type git remote -v you should see something like this:
 
 origin	https://github.com/<YOUR-GITHUB-USERNAME>/github-protocol.git (fetch)
 origin	https://github.com/<YOUR-GITHUB-USERNAME>/.git (push)
@@ -59,9 +59,9 @@ Step 4) Stage and commit your changes. Use git add . to stage your files and git
 Step 5) So we have made changes in our local feature branch and commited those changes. The next thing to do is to push those changes to our remote forked repository (https://github.com/<YOUR-GITHUB-USERNAME>/github-protocol). To do this we can use the command git push --set-upstream origin <FEATURE-NAME>. Note, if you type "git push" Github will give you this command and you can copy paste it into the terminal so you don't have to remember it.
 
 *****NOTE*****
-At this point, we could just go to our remote branch and click "new pull request" to make a pull request to the master. However, it's much easier to use VS Code to resolve merge conflicts. It's also much safer to resolve merge conflicts on a local branch. The following steps will outline how we can resolve merge conflicts locally before submitting a pull request.
+At this point, we could just go to our remote branch and click "new pull request" to make a pull request to the remote master (for this example the remote master is https://github.com/Ihmoda/github-protocol). However, it's much easier to use VS Code to resolve merge conflicts. It's also much safer to resolve merge conflicts on a local branch. The following steps will outline how we can resolve merge conflicts locally before submitting a pull request.
 
-Before moving on, let's quickly review what a merge conflict is. A merge conflict occurs when two different branches are asking to modify the same line of the same file. When this happens, Git doesn't know which changes to actually apply.
+Before moving on, let's quickly review what a merge conflict is. A merge conflict occurs when two different branches are asking to modify the same line of the same file. When this happens, Git doesn't know which changes to apply.
 
 
 */

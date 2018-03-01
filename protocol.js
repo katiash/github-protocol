@@ -9,7 +9,7 @@
 
 Step 1: Fork this repository. Click the "fork button" to create a remote copy of this branch in your Github account. By clicking "fork" you will create a new repository at https://github.com/<YOUR-GITHUB-USERNAME>/github-protocol.
 
-Step 2: Go to https://github.com/<YOUR-GITHUB-USERNAME>/github-protocol. Click the "Clone or Download" green button. This will bring up a url that you can click to copy. In your terminal, navigate to area you want to store your forked project, such as your Desktop. Cilck git clone https://github.com/<YOUR-GITHUB_USERNAME/github-protocol.git (the link to the left just has a placeholder username, your actual link will have your username).
+Step 2: Go to https://github.com/<YOUR-GITHUB-USERNAME>/github-protocol. Click the "Clone or Download" green button. This will bring up a url that you can click to copy. In your terminal, navigate to area you want to store your forked project, such as your Desktop. Click git clone https://github.com/<YOUR-GITHUB_USERNAME/github-protocol.git (the link to the left just has a placeholder username, your actual link will have your username).
 
 Congratulations, you have successfully forked the repo and are ready to start making contributions!
 
@@ -18,7 +18,8 @@ Congratulations, you have successfully forked the repo and are ready to start ma
 Basic philosophy of our git protocol:
     1) The master remote branch is never broken. Changes are only merged after being tested.
     2) Nobody works off of their local master branches. All changes are made in individual feature branches.
-    3) Local and remote forked master branches are kept up-to-date. Before creating a new branch in your local repository, pull in the latest changes from the main master.
+    3) Local and remote forked master branches are kept up-to-date. Before creating a new branch in your local repository, 
+    pull in the latest changes from the main master.
 
 
 Before going any further, let's quickly review where the version control for Github resides. At this point, there are three different repos that you need to be thinking about. There is the master remote branch at https://github.com/Ihmoda/github-protocol. There is your fork of this branch at https://github.com/<YOUR-GITHUB-USERNAME>/github-protocol. There is also a local copy of the repo within your machine where you cloned the repo.
@@ -34,7 +35,11 @@ If you type git remote -v you should see something like this:
 origin	https://github.com/<YOUR-GITHUB-USERNAME>/github-protocol.git (fetch)
 origin	https://github.com/<YOUR-GITHUB-USERNAME>/.git (push)
 
-This shows us that we have access to our forked remote branch ('origin'). We now need to establish a connection with the actual master branch so that we can pull down the latest changes. To do this, we use "git remote add." Run "git remote add upstream git://github.com/<ORIGINAL-DEV-USERNAME>/<REPO-YOU-FORKED-FROM>.git". With this command, we are adding a new remote connection and naming that connection "upstream". You can actually name this connection anything you want, but calling it upstream is helpful. Type git "remote -v". If you did this correctly, you should see something like this:
+This shows us that we have access to our forked remote branch ('origin'). We now need to establish a connection with the actual master branch so that we can pull down the latest changes. To do this, we use "git remote add" command: 
+
+  run "git remote add upstream git://github.com/<ORIGINAL-DEV-USERNAME>/<REPO-YOU-FORKED-FROM>.git".
+
+With this command, we are adding a new remote connection and naming that connection "upstream". You can actually name this connection anything you want, but calling it upstream is helpful. Type git "remote -v". If you did this correctly, you should see something like this:
 
 origin	https://github.com/Ihmoda/github-protocol-fork.git (fetch)
 origin	https://github.com/Ihmoda/github-protocol-fork.git (push)
@@ -71,4 +76,4 @@ Step 8) Submit a pull request to the main master project branch. It's now time t
 
 */
 
-var contributors = ["Omar Ihmoda", "Arin Halicki"];
+var contributors = ["Omar Ihmoda", "Arin Halicki", "Katia Shukh"];

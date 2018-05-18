@@ -116,7 +116,7 @@ Step 7) Running step #6 can introduce merge conflicts, but don't worry, it's not
 Step 7) b) I would do a `git pull upstream master` here again, just in case that there have been committed changes to the remote master while you were merging the conflicts.
 
 Step 8) It's now time to submit a pull request to the main master branch.
-        Go to our remote branch and click "new pull request" to make a pull request to the remote master (for this example, the remote master is https://github.com/Ihmoda/github-protocol). 
+        Go to our remote feature branch and click "new pull request" to make a pull request to the remote master (for this example, the remote master is https://github.com/Ihmoda/github-protocol). 
         If you did everything correctly, the pull request will have no merge conflicts and you will be able to easily merge.
 
 */
